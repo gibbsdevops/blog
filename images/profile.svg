@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 220 290" preserveAspectRatio="xMidYMid meet" zoomAndPan="disable">
+<!--<rect id="svgEditorBackground" x="0" y="0" width="220" height="290" style="fill: lightblue; stroke: black;" />-->
+<polygon points="10 10, 20 10, 20 0, 40 0, 40 130, 80 130, 80 120, 70 120, 70 50, 80 50, 80 40, 160 40, 160 50, 170 50, 170 120, 160 120, 160 130, 180 130, 180 110, 190 110, 190 100, 210 100, 210 110, 220 110, 220 170, 210 170, 210 180, 170 180, 170 210, 180 210, 180 220, 190 220, 190 230, 180 230, 180 240, 170 240, 170 260, 180 260, 180 270, 190 270, 190 290, 120 290, 120 240, 80 240, 80 270, 10 270, 10 250, 20 250, 20 240, 40 240, 40 210, 50 210, 50 200, 70 200, 70 180, 10 180, 10 170, 0 170, 0 130, 10 130" fill="black" stroke="none"/>
+<polygon points="20 10, 30 10, 30 130, 20 130" fill="#dfdfdf" stroke="none"/>
+<rect x="90" y="70" width="60" height="30" fill="#e6c38d" />
+<rect x="100" y="90" width="20" height="10" fill="#f5e1bc" />
+<rect x="130" y="90" width="20" height="10" fill="#f5e1bc" />
+<rect x="100" y="80" width="10" height="10" fill="black" stroke="black" stroke-linejoin="round" />
+<rect x="130" y="80" width="10" height="10" fill="black" stroke="black" stroke-linejoin="round" />
+<rect x="20" y="130" width="10" height="10" fill="#555" />
+<rect x="10" y="140" width="10" height="30" fill="#555" />
+<polygon points="40 150, 40 140, 80 140, 80 130, 90 130, 90 110, 90 60, 160 60, 160 50, 80 50, 80 110, 100 110, 100 120, 120 120, 120 130, 110 130, 110 140, 100 140, 100 150" fill="#555" />
+<polygon points="150 150, 150 140, 200 140, 200 120, 210 120, 210 110, 190 110, 190 130, 180 130, 180 150" fill="#555" stroke="none"/>
+<polygon points="130 250, 140 250, 140 260, 170 260, 170 270, 150 270, 150 280, 130 280" fill="#555" stroke="none"/>
+<polygon points="20 260, 20 250, 60 250, 60 220, 80 220, 80 210, 90 210, 90 170, 80 170, 80 200, 70 200, 70 210, 50 210, 50 240, 40 240, 40 260, 20 260" fill="#555" stroke="none"/>
+<rect x="80" y="190" width="10" height="10" fill="#f7ee13" stroke="#f7ee13" stroke-linejoin="round" />
+<rect x="90" y="190" width="40" height="10" fill="#aea218" />
+<rect x="140" y="190" width="10" height="10" fill="#f7ee13" stroke="#f7ee13" stroke-linejoin="round" />
+<rect x="150" y="200" width="10" height="10" fill="#aea218" />
+<rect x="160" y="210" width="10" height="10" fill="#aea218" />
+<rect x="170" y="220" width="10" height="10" fill="#aea218" />
+</svg>

@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "But why?"
+date:   2016-01-29 15:04:23
+categories: [why]
+tags: [why]
+---
+
+Yup, first blog entry... Sooo, I will start with why. I am creating this blog for three reasons:
+
+1. The possibility of being able to experience my own communication as others would experience it.
+2. As a knowledge base for myself.
+3. And as a way to relax and chill out a bit.
+
+Now, sometimes, when I read code that I wrote 6 months to a year ago it is like reading code that someone else has written. I find this can afford me an interesting insight into my abilities (perceived or otherwise) and a unique opportunity of self analysis.
+
+I want to try and replicate this opportunity with communication. Using these posts as a means.
+
+In doing so, I want to try to resist writing long posts. Keeping it short and sweet, and try to convey only a single simple idea or design at a time.

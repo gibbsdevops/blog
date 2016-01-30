@@ -1,0 +1,29 @@
+# Site settings
+title: GibbsDevops
+description: 'Musings of some guy'
+url: 'http://www.hands.net.nz'
+baseurl: '/blog/'
+# google_analytics: 'UA-XXXXXX-X'
+
+author:
+  name: 'Shane Gibbs'
+  email: shane@gibbsdevops.com
+  twitter_username: fuse512
+  github_username:  shanegibbs
+  linkedin_username:  shane-gibbs-1779414a
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
