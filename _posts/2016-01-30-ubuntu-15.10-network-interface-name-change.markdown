@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Ubuntu 15.10 Network Interface Name Change"
+date:   2016-01-30 21:27:23
+categories: [ubuntu, network]
+tags: [linux, ubuntu, ubuntu-15.10, network, systemd]
+---
+
+If you fire up a fresh install of Ubuntu 15.10 (Wily Werewolf) you will find yourself with unfamiliar, and unfriendly network interface names. You will notice `eth0` or `eth1` are gone. If you see this, don't panic! This is the new expected behavior.
+
+<!--more-->
+
+![predictable interface names screenshot]({{ site.base-url }}/assets/images/posts/2016-01-30/Screen Shot 2016-01-30 at 10.36.05 PM.png)
+
+This change is due to a feature of systemd called ["predictable interface names"](http://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/). Ubuntu 15.04 (Vivid Vervet) also had this feature, but it was disabled by default.
+
+The advantages of having predictable interface names are that, the network interfaces won't rename themselves on you. This can happen across installs or upgrades, and in some cases, particularly with a read-only root, across reboots.
+
+Needless to say, if you are a firewall, having your public and private networks swapped is a big deal.
+
+## Accept the Change
+
+In most cases, this will be the easy option and you can stop reading here :+1:
+
+However, the cases of single NIC environments, where you have hard coded `eth0`, going back to non predictable interface names may be your only agreeable option.
+
+## Getting `eth0` Back
+
+For this, you will need to set the kernel parameter `net.ifnames=0` and reboot back into 2014.
+
+### Try it First
+
+You can try this mode without making any permanent system changes. On boot, in the grub console, edit the default boot config (the one with a `*` next to it, and probably called `Ubuntu`). You do this by pressing `e` as per the on screen instructions. You will then need to scroll down until you find a line that begins with `linux`. Append the above kernel parameter to this line and press `F10`.
+
+### Make it Permanent
+
+All going well, you will want to make this permanent. The easiest way to do this is to edit your grub config and add the new parameter to the `GRUB_CMDLINE_LINUX_DEFAULT` variable. Something like this:
+
+<figure>
+  <figcaption>/etc/default/grub</figcaption>
+{% highlight bash linenos %}
+GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0"
+{% endhighlight %}
+</figure>
+
+You will then need to update your grub config:
+
+{% highlight console linenos %}
+% sudo update-grub
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-4.2.0-16-generic
+Found initrd image: /boot/initrd.img-4.2.0-16-generic
+Found memtest86+ image: /memtest86+.elf
+Found memtest86+ image: /memtest86+.bin
+done
+{% endhighlight %}
+
+After the customary reboot you should be back in `eth0` land. :see_no_evil:

@@ -2,11 +2,14 @@
 layout: post
 title:  "But why?"
 date:   2016-01-29 15:04:23
-categories: [why]
+categories: []
 tags: [why]
 ---
 
-Yup, first blog entry... Sooo, I will start with why. I am creating this blog for three reasons:
+Sooo, I will start with why.
+
+<!--more-->
+I am creating this blog for three reasons:
 
 1. The possibility of being able to experience my own communication as others would experience it.
 2. As a knowledge base for myself.
