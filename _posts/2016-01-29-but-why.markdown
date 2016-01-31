@@ -12,7 +12,7 @@ Yup, first blog entry... Sooo, I will start with why. I am creating this blog fo
 2. As a knowledge base for myself.
 3. And as a way to relax and chill out a bit.
 
-Now, sometimes, when I read code that I wrote 6 months to a year ago it is like reading code that someone else has written. I find this can afford me an interesting insight into my abilities (perceived or otherwise) and a unique opportunity of self analysis.
+Now, sometimes, when I read code that I wrote 6 months to a year ago it is like reading code that someone else has written. I find this can afford me an interesting insight into my abilities (perceived or otherwise) and a unique opportunity for self analysis.
 
 I want to try and replicate this opportunity with communication. Using these posts as a means.
 

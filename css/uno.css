@@ -1,4 +1,29 @@
-@import 'http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+/* @import 'http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)'; */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(../fonts/Raleway.ttf) /* url(http://fonts.gstatic.com/s/raleway/v9/bIcY3_3JNqUVRAQQRNVteQ.ttf) */ format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(../fonts/Raleway-Bold.ttf) /* url(http://fonts.gstatic.com/s/raleway/v9/JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) */ format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(../fonts/RobotoSlab-Light.ttf) /* url(http://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJbfB31yxOzP-czbf6AAKCVo.ttf) */ format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(../fonts/RobotoSlab-Reguight.ttf) /* url(http://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zp0EAVxt0G0biEntp43Qt6E.ttf) */ format('truetype');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)

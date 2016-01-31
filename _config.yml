@@ -1,8 +1,8 @@
 # Site settings
 title: GibbsDevops
 description: 'Musings of some guy'
-url: 'http://www.hands.net.nz'
-baseurl: '/blog/'
+url: 'https://gibbsdevops.com'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 
 author:
@@ -26,4 +26,4 @@ kramdown:
   hard_wrap: false
 
 gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock' ]
+exclude: [ 'README.md', 'Gemfile', 'Gemfile.lock', 'Makefile' ]
