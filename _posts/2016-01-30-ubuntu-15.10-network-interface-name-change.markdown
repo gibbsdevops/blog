@@ -6,7 +6,7 @@ categories: [ubuntu, network]
 tags: [linux, ubuntu, ubuntu-15.10, network, systemd]
 ---
 
-If you fire up a fresh install of Ubuntu 15.10 (Wily Werewolf) you will find yourself with unfamiliar, and unfriendly network interface names. You will notice `eth0` or `eth1` are gone. If you see this, don't panic! This is the new expected behavior.
+If you fire up a fresh install of Ubuntu 15.10 (Wily Werewolf) you will find yourself with unfamiliar, and unfriendly network interface names. You will notice `eth0` and `eth1` are gone. If you see this, don't panic! This is the new expected behavior.
 
 <!--more-->
 
